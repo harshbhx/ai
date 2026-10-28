@@ -36,6 +36,7 @@ export const WORKERS_AI_ERROR_CODE_TO_STATUS: Record<number, number> = {
 	3007: 408, // Timeout
 	3008: 408, // Aborted
 	3036: 429, // Account limited (daily free allocation used up)
+	3021: 429, // Rate limited (inference requests per minute reached)
 	3040: 429, // Out of capacity (no data center to forward to)
 };
 
